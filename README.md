@@ -16,7 +16,7 @@ transactions = []
 def record_voice_transaction():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
-        print("Speak now (e.g., 'Sold shoes for 50 dollars')...")
+        print("Speak now (e.g., 'Sold shoes for 70 dollars')...")
         audio = recognizer.listen(source)
 
     try:
